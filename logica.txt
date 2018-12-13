@@ -1,0 +1,17 @@
+- Si str (Matrix [i], [j] == "1"
+girar stepper motor per girar cinta
+
+mindstorm
+detactar que la cinta s'ha parat
+girar porta
+esperar 30 s
+tancar porta
+
+-(mindstorm) detectar boto
+obrir porta retorn
+detectar ampolla
+tancar porta
+
+- Fer foto
+guardar 
+esperar 1 dia 
