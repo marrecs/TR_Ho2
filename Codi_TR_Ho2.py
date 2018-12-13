@@ -65,16 +65,19 @@ time.sleep(5.0)
 lcd.show_cursor(False)
 lcd.blink(False)
 
-# Demo scrolling message right/left.
-lcd.clear()
-message = 'Scroll'
-lcd.message(message)
-for i in range(lcd_columns-len(message)):
-    time.sleep(0.5)
-    lcd.move_right()
-for i in range(lcd_columns-len(message)):
-    time.sleep(0.5)
-    lcd.move_left()
+def FuncScroll(textScroll):   
+    # Demo scrolling message right/left.
+    lcd.clear()
+    message = 'textScroll'
+    lcd.message(message)
+    for i in range(lcd_columns-len(message)):
+        time.sleep(0.5)
+        lcd.move_right()
+    for i in range(lcd_columns-len(message)):
+        time.sleep(0.5)
+        lcd.move_left()
+   return;   
+
 
 # Demo turning backlight off and on.
 lcd.clear()
