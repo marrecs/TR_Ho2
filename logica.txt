@@ -15,3 +15,5 @@ tancar porta
 - Fer foto
 guardar 
 esperar 1 dia 
+
+Fi------
